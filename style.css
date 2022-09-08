@@ -1,0 +1,294 @@
+body{
+    margin: 0;
+    
+}
+
+.hitec{
+    margin: 0;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+}
+
+nav{
+    background-color: rgb(136, 191, 255);
+    color: white;
+    font-size: 25px;
+    height: 75px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+nav{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+
+nav ol li:hover{
+    color: white;
+    cursor: pointer;
+}
+
+nav ol li{
+    list-style-type: none;
+    display: inline;
+    padding-left: 140px ;
+    padding-right: 140px;
+    font-size: 30px;
+    color: black;
+}
+
+.nav2{
+    display: flex;
+}
+
+.icones{
+    display: flex;
+}
+
+.pesquisa{
+    padding: 20px 15px 0 15px;
+    text-align: center;
+    font-size: 21px;
+}
+
+.pesquisa input.primeiro{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 25px;
+    font-style: italic;
+    height: 40px;
+    padding: 10px 100px 10px 20px;
+    width: 45%;
+    font-size: 20px;
+}
+
+input[type=submit]{
+    background-color: blue;
+    height: 40px;
+    border: none;
+    outline: 0;
+    cursor: pointer;
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    border-radius: 25px;
+    font-weight: 700;
+    padding: 10px 20px;
+    color: white;
+    
+}
+
+.titulo2{
+    padding-left: 20px;
+}
+
+.section1 {
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.entrega{
+    text-align: center;
+}
+
+.entrega ul {
+    list-style-type: none;
+}
+
+.entrega ul li{
+    font-size: 20px;
+    color: black;
+}
+
+button{
+    background-color: transparent;
+    border-radius: 10px;
+    width: 250px;
+    height: 85px;
+    background-color: rgb(236, 250, 250);
+}
+
+button:hover{
+    color: white;
+    background-color: rgb(120, 201, 221);
+    cursor: pointer;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.section2 {
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.pagamento{
+    text-align: center;
+}
+
+.pagamento ul {
+    list-style-type: none;
+}
+
+.pagamento ul li{
+    font-size: 20px;
+    color: black;
+}
+
+.info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.section3 {
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.perfil{
+    text-align: center;
+}
+
+.perfil ul {
+    list-style-type: none;
+}
+
+.perfil ul li{
+    font-size: 20px;
+    color: black;
+}
+
+.section4 {
+    width: 300px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.servicos{
+    text-align: center;
+}
+
+.servicos ul {
+    list-style-type: none;
+}
+
+.servicos ul li{
+    font-size: 20px;
+    color: black;
+}
+
+.section5 {
+    width: 300px;
+    height: 300px;
+    border: 1px solid white;
+    margin: 20px;
+    border-radius: 10px;
+    background-color: rgb(195, 232, 236);
+}
+
+.contatos{
+    text-align: center;
+}
+
+.titulo3{
+    color: blue;
+}
+
+.map{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cadastro{
+    background-color: rgb(195, 232, 236);
+    height: 10vh;
+    color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.p{
+    font-size: 30px;
+}
+
+.nome{
+    border-radius: 25px;
+    height: 40px;
+    width: 150;
+}
+
+.email{
+    border-radius: 25px;
+    height: 40px;
+    width: 200;
+}
+
+footer{
+    margin-top: 10px;
+    background-color: rgb(136, 191, 255);
+    text-align: center;
+    align-items: center;
+    size: 45vh;
+}
+
+.copy{
+    margin-left: 15px;
+    font-size: 20px;
+    line-height: auto;
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    align-items: center;
+    background-position: center;
+    margin-top: 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.pngs{
+    display: flex;
+    justify-content: space-between;
+    justify-content: space-around;
+}
+
+.logos{
+    padding: 10px;
+    margin-bottom: 10px;
+    text-align: center;
+    align-items: center;
+    background-position: center;
+    padding-left: 30px;
+    
+}
+
+.rodape{
+    margin-top: 10px;
+    
+}
+
+.sigaepague{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;    
+}
